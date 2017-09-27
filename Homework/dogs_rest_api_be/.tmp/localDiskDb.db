@@ -1,0 +1,108 @@
+{
+  "data": {
+    "student": [],
+    "dog": [
+      {
+        "name": "Orion",
+        "breed": "Dogo Argentino",
+        "sex": "Male",
+        "age": "1",
+        "height_in_inches": 25,
+        "weight_in_pounds": 100,
+        "id": 14
+      },
+      {
+        "name": "Roscoe",
+        "breed": "German Shepherd/Rottweiler Mix",
+        "sex": "Male",
+        "age": "10",
+        "height_in_inches": 27,
+        "weight_in_pounds": 110,
+        "id": 15
+      },
+      {
+        "name": "Hemingway",
+        "breed": "English Mastiff",
+        "sex": "Male",
+        "age": "1 year",
+        "id": 16
+      },
+      {
+        "name": "Pumpkin",
+        "breed": "Pit Bull Mix",
+        "sex": "Female",
+        "age": "1 year",
+        "id": 17,
+        "height_in_inches": 14,
+        "weight_in_pounds": 35
+      },
+      {
+        "name": "Cody",
+        "breed": "Great Dane",
+        "sex": "Male",
+        "age": "3 years",
+        "id": 18
+      }
+    ]
+  },
+  "schema": {
+    "student": {
+      "student_id": {
+        "type": "integer",
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true
+      },
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "gpa": {
+        "type": "string"
+      },
+      "sat": {
+        "type": "integer"
+      },
+      "major_id": {
+        "type": "integer"
+      },
+      "start_date": {
+        "type": "date"
+      }
+    },
+    "dog": {
+      "name": {
+        "type": "string"
+      },
+      "breed": {
+        "type": "string"
+      },
+      "sex": {
+        "type": "string"
+      },
+      "age": {
+        "type": "string"
+      },
+      "height_in_inches": {
+        "type": "integer"
+      },
+      "weight_in_pounds": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      }
+    }
+  },
+  "counters": {
+    "student": {},
+    "dog": {
+      "id": 18
+    }
+  }
+}
